@@ -1,0 +1,48 @@
+# 规则文件说明：用于拦截大多数主流 App 和网站中的广告及追踪器
+# 规则类型为 DOMAIN-KEYWORD, DOMAIN-SUFFIX 及 IP-CIDR
+# 可作为 Shadowrocket 策略组中 "REJECT" 的一个 list
+
+# 广告平台域名后缀拦截
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,ads.google.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,adnxs.com
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,tapjoy.com
+DOMAIN-SUFFIX,criteo.com
+DOMAIN-SUFFIX,mopub.com
+DOMAIN-SUFFIX,flurry.com
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,snapads.com
+
+# 广告关键词匹配
+DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,tracking
+DOMAIN-KEYWORD,adsystem
+DOMAIN-KEYWORD,logevent
+DOMAIN-KEYWORD,measure
+DOMAIN-KEYWORD,analytic
+DOMAIN-KEYWORD,sdk-events
+
+# IP 拦截（广告或追踪器服务器）
+IP-CIDR,203.98.7.65/32,no-resolve
+IP-CIDR,216.58.200.0/24,no-resolve
+
+# 可选：中国常见 App 广告
+DOMAIN-SUFFIX,ads.tencent.com
+DOMAIN-SUFFIX,adash.man.aliyuncs.com
+DOMAIN-SUFFIX,ad.xiaomi.com
+DOMAIN-SUFFIX,ad.sina.com.cn
+DOMAIN-SUFFIX,log.snssdk.com
+DOMAIN-SUFFIX,is.snssdk.com
+DOMAIN-SUFFIX,mon.snssdk.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin.snssdk.com
