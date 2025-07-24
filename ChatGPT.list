@@ -10,5 +10,9 @@ DOMAIN-SUFFIX,cdn.auth0.com,🎯 ChatGPT
 DOMAIN-SUFFIX,sentry.io,🎯 ChatGPT
 DOMAIN-KEYWORD,openai,🎯 ChatGPT
 
+# === 如果你使用的是 iOS/iPadOS 的 ChatGPT App，还建议加上 Apple iCloud 直连规则 ===
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+
 # === 默认直连其余流量 ===
 FINAL,DIRECT
