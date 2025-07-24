@@ -1,28 +1,36 @@
 # ================== Netflix 分流规则 ==================
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,nflximg.net
+# Netflix
+USER-AGENT, Argo*
+DOMAIN-KEYWORD, apiproxy-device-prod-nlb-
+DOMAIN-KEYWORD, dualstack.apiproxy-
+DOMAIN-KEYWORD, netflixdnstest
+DOMAIN, netflix.com.edgesuite.net
+DOMAIN-SUFFIX, fast.com
+DOMAIN-SUFFIX, netflix.com
+DOMAIN-SUFFIX, netflix.net
+DOMAIN-SUFFIX,netflixdnstest0.com
+DOMAIN-SUFFIX,netflixdnstest1.com
+DOMAIN-SUFFIX, netflixdnstest2.com
+DOMAIN-SUFFIX, netflixdnstest3.com
+DOMAIN-SUFFIX,netflixdnstest4.com
+DOMAIN-SUFFIX,netflixdnstest5.com
+DOMAIN-SUFFIX, netflixdnstest6.com
+DOMAIN-SUFFIX,netflixdnstest7.com
+DOMAIN-SUFFIX, netflixdnstest8.com
+DOMAIN-SUFFIX,netflixdnstest9.com
+DOMAIN-SUFFIX,nf1xext.com
 DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX, nfixso.net
 DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflxmedia.net
-DOMAIN-SUFFIX,nflxsearch.net
-DOMAIN-SUFFIX,nflxapp.com
-DOMAIN-KEYWORD,netflix
-
-DOMAIN,www.netflix.com
-DOMAIN,assets.nflxext.com
-DOMAIN,api-global.netflix.com
-DOMAIN,ios.prod.ftl.netflix.com
-DOMAIN,android.prod.ftl.netflix.com
-DOMAIN,netflixdnstest0.com
-DOMAIN,netflixdnstest1.com
-DOMAIN,netflixdnstest2.com
-DOMAIN,netflixdnstest3.com
-DOMAIN,netflixdnstest4.com
-DOMAIN,netflixdnstest5.com
-DOMAIN,netflixdnstest6.com
-DOMAIN,netflixdnstest7.com
-DOMAIN,netflixdnstest8.com
-DOMAIN,netflixdnstest9.com
+IP-CIDR, 8.41.4.0/24, no-resolve
+IP-CIDR, 23.246.0.0/18,n0-resolve
+IP-CIDR, 37.77.184.0/21, no-resolve
+IP-CIDR, 38.72.126.0/24,n0-resolve
+IP-CIDR, 45.57.0.0/17,n0-resolve
+IP-CIDR, 64.120.128.0/17,no-resolve
+IP-CIDR, 66.197.128.0/17, no-resolve
+IP-CIDR, 69.53.224.0/19, no-resolve
+IP-CIDR, 103.87.204.0/22, no-resolve
+IP-CIDR, 108.175.32.0/20, no-resolve
+IP-CIDR, 185. 2.220.0/22,no-resolve IP-CIDR, 185.9.188.0/22,no-resolve IP-CIDR, 192.173.64.0/18, no-resolve IP-CIDR, 198.38.96.0/19,n0-resolve IP-CIDR, 198.45.48.0/20,no-resolve IP-CIDR, 203.75.84.0/24,no-resolve IP-CIDR, 207.45.72.0/22,no-resolve IP-CIDR, 208.75.76.0/22,no-resolve
