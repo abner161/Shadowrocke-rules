@@ -1,0 +1,18 @@
+[Rule]
+# OnlyFans
+DOMAIN-SUFFIX,onlyfans.com,PROXY
+DOMAIN-KEYWORD,onlyfans,PROXY
+
+# Pornhub
+DOMAIN-SUFFIX,pornhub.com,PROXY
+DOMAIN-SUFFIX,phncdn.com,PROXY
+DOMAIN-SUFFIX,phprcdn.com,PROXY
+DOMAIN-KEYWORD,pornhub,PROXY
+
+# XVideos
+DOMAIN-SUFFIX,xvideos.com,PROXY
+DOMAIN-KEYWORD,xvideos,PROXY
+
+# Fansly
+DOMAIN-SUFFIX,fansly.com,PROXY
+DOMAIN-KEYWORD,fansly,PROXY
