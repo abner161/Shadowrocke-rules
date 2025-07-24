@@ -1,0 +1,14 @@
+[Rule]
+
+# === OpenAI / ChatGPT 分流规则 ===
+DOMAIN-SUFFIX,openai.com,🎯 ChatGPT
+DOMAIN-SUFFIX,chat.openai.com,🎯 ChatGPT
+DOMAIN-SUFFIX,api.openai.com,🎯 ChatGPT
+DOMAIN-SUFFIX,auth0.openai.com,🎯 ChatGPT
+DOMAIN-SUFFIX,platform.openai.com,🎯 ChatGPT
+DOMAIN-SUFFIX,cdn.auth0.com,🎯 ChatGPT
+DOMAIN-SUFFIX,sentry.io,🎯 ChatGPT
+DOMAIN-KEYWORD,openai,🎯 ChatGPT
+
+# === 默认直连其余流量 ===
+FINAL,DIRECT
