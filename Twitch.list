@@ -1,0 +1,12 @@
+[Rule]
+
+# Twitch 相关域名
+DOMAIN-SUFFIX,twitch.tv,🟪 Twitch
+DOMAIN-SUFFIX,ttvnw.net,🟪 Twitch
+DOMAIN-SUFFIX,jtvnw.net,🟪 Twitch
+DOMAIN-SUFFIX,ext-twitch.tv,🟪 Twitch
+DOMAIN-SUFFIX,twitchcdn.net,🟪 Twitch
+DOMAIN-KEYWORD,twitch,🟪 Twitch
+
+# 默认其他流量直连
+FINAL,DIRECT
