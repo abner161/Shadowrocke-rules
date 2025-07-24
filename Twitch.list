@@ -7,6 +7,3 @@ DOMAIN-SUFFIX,jtvnw.net,🟪 Twitch
 DOMAIN-SUFFIX,ext-twitch.tv,🟪 Twitch
 DOMAIN-SUFFIX,twitchcdn.net,🟪 Twitch
 DOMAIN-KEYWORD,twitch,🟪 Twitch
-
-# 默认其他流量直连
-FINAL,DIRECT
