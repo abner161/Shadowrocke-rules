@@ -1,0 +1,18 @@
+#>> 成人内容分流规则（Pornhub、Xvideos、OnlyFans、Fansly 等）
+DOMAIN-SUFFIX,phncdn.com,Adult
+DOMAIN-SUFFIX,phprcdn.com,Adult
+DOMAIN-SUFFIX,pornhub.com,Adult
+DOMAIN-SUFFIX,pornhubpremium.com,Adult
+DOMAIN-SUFFIX,xvideos.com,Adult
+DOMAIN-SUFFIX,xvideos-cdn.com,Adult
+DOMAIN-SUFFIX,onlyfans.com,Adult
+DOMAIN-SUFFIX,onlyfans.com.cdn.cloudflare.net,Adult
+DOMAIN-SUFFIX,fansly.com,Adult
+DOMAIN-SUFFIX,fanslycdn.com,Adult
+DOMAIN-SUFFIX,redgifs.com,Adult
+DOMAIN-SUFFIX,spankbang.com,Adult
+DOMAIN-SUFFIX,xhamster.com,Adult
+DOMAIN-SUFFIX,rule34.xxx,Adult
+DOMAIN-KEYWORD,porn,Adult
+DOMAIN-KEYWORD,sex,Adult
+DOMAIN-KEYWORD,nsfw,Adult
