@@ -1,9 +1,17 @@
 [Rule]
 
-# Twitch 相关域名
-DOMAIN-SUFFIX,twitch.tv,🟪 Twitch
-DOMAIN-SUFFIX,ttvnw.net,🟪 Twitch
-DOMAIN-SUFFIX,jtvnw.net,🟪 Twitch
-DOMAIN-SUFFIX,ext-twitch.tv,🟪 Twitch
-DOMAIN-SUFFIX,twitchcdn.net,🟪 Twitch
-DOMAIN-KEYWORD,twitch,🟪 Twitch
+# ===================== Twitch 分流规则 =====================
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-SUFFIX,ext-twitch.tv
+DOMAIN-KEYWORD,twitch
+
+DOMAIN,api.twitch.tv
+DOMAIN,gql.twitch.tv
+DOMAIN,pubsub-edge.twitch.tv
+DOMAIN,usher.ttvnw.net
+DOMAIN,static.twitchcdn.net
+DOMAIN,chat.twitch.tv
+DOMAIN,player.twitch.tv
