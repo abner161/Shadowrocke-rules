@@ -1,0 +1,16 @@
+# Twitter/X 主站域名
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twimg.com
+
+# Twitter 图片/视频/CDN 资源
+DOMAIN-SUFFIX,abs.twimg.com
+DOMAIN-SUFFIX,api.twitter.com
+DOMAIN-SUFFIX,video.twimg.com
+DOMAIN-SUFFIX,ton.twimg.com
+DOMAIN-SUFFIX,pbs.twimg.com
+DOMAIN-SUFFIX,upload.twitter.com
+
+# GEOIP（可选）
+GEOIP,US
