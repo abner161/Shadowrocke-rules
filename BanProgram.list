@@ -1,0 +1,44 @@
+# BanProgram.list - 程序拦截规则（BT、破解、抓包、挖矿）
+
+# 🚫 迅雷 / BT / 磁力链服务
+DOMAIN-SUFFIX,xunlei.com
+DOMAIN-SUFFIX,sandai.net
+DOMAIN-SUFFIX,btfile.cc
+DOMAIN-SUFFIX,torcache.net
+DOMAIN-SUFFIX,torrentdownloads.me
+DOMAIN-SUFFIX,bitcomet.com
+DOMAIN-SUFFIX,utorrent.com
+DOMAIN-SUFFIX,transmissionbt.com
+
+# ⚠️ 破解软件、绕过、外挂等相关域名关键词
+DOMAIN-KEYWORD,crack
+DOMAIN-KEYWORD,keygen
+DOMAIN-KEYWORD,hacktool
+DOMAIN-KEYWORD,serials
+
+# 🧱 抓包工具、调试代理
+DOMAIN-SUFFIX,proxyman.io
+DOMAIN-SUFFIX,mitmproxy.org
+DOMAIN-SUFFIX,charlesproxy.com
+DOMAIN-KEYWORD,fiddler
+
+# 💣 挖矿行为或平台
+DOMAIN-SUFFIX,coinhive.com
+DOMAIN-SUFFIX,cryptonight.net
+DOMAIN-SUFFIX,minergate.com
+DOMAIN-SUFFIX,hashflare.io
+DOMAIN-KEYWORD,mining
+
+# 🔍 常见代理/翻墙工具检测或回传服务
+DOMAIN-SUFFIX,whatismyipaddress.com
+DOMAIN-KEYWORD,iplocation
+DOMAIN-KEYWORD,proxycheck
+DOMAIN-KEYWORD,whoer
+
+# 🧧 可选：拦截第三方更新以防止破解失效（小心误杀）
+# DOMAIN-SUFFIX,adobe.com
+# DOMAIN-SUFFIX,jetbrains.com
+
+# 🌐 IP段（部分 BT 网络或黑名单地址）
+IP-CIDR,91.92.128.0/17,no-resolve
+IP-CIDR,109.236.80.0/21,no-resolve
