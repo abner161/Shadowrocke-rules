@@ -2,4 +2,4 @@ DOMAIN-SUFFIX,instagram.com,update-interval = 86400
 DOMAIN-SUFFIX,cdninstagram.com,update-interval = 86400
 DOMAIN-SUFFIX,fbcdn.net,update-interval = 86400
 DOMAIN-KEYWORD,instagram,update-interval = 86400
-USER-AGENT,Instagram*,update-interval = 86400
+USER-AGENT,Instagram*
