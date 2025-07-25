@@ -1,14 +1,14 @@
 [Rule]
 
 # === OpenAI / ChatGPT 分流规则 ===
-DOMAIN-SUFFIX,openai.com,🎯 ChatGPT
-DOMAIN-SUFFIX,chat.openai.com,🎯 ChatGPT
-DOMAIN-SUFFIX,api.openai.com,🎯 ChatGPT
-DOMAIN-SUFFIX,auth0.openai.com,🎯 ChatGPT
-DOMAIN-SUFFIX,platform.openai.com,🎯 ChatGPT
-DOMAIN-SUFFIX,cdn.auth0.com,🎯 ChatGPT
-DOMAIN-SUFFIX,sentry.io,🎯 ChatGPT
-DOMAIN-KEYWORD,openai,🎯 ChatGPT
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+DOMAIN-SUFFIX,cdn.auth0.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-KEYWORD,openai
 
 # === 如果你使用的是 iOS/iPadOS 的 ChatGPT App，还建议加上 Apple iCloud 直连规则 ===
 DOMAIN-SUFFIX,apple.com,DIRECT
