@@ -1,18 +1,19 @@
 #>> 成人内容分流规则（Pornhub、Xvideos、OnlyFans、Fansly 等）
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubpremium.com
-DOMAIN-SUFFIX,xvideos.com
-DOMAIN-SUFFIX,xvideos-cdn.com
-DOMAIN-SUFFIX,onlyfans.com
-DOMAIN-SUFFIX,onlyfans.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,fansly.com
-DOMAIN-SUFFIX,fanslycdn.com
-DOMAIN-SUFFIX,redgifs.com
-DOMAIN-SUFFIX,spankbang.com
-DOMAIN-SUFFIX,xhamster.com
-DOMAIN-SUFFIX,rule34.xxx
-DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,sex
-DOMAIN-KEYWORD,nsfw
+DOMAIN-SUFFIX,phncdn.com,update-interval = 86400
+DOMAIN-SUFFIX,phprcdn.com,update-interval = 86400
+DOMAIN-SUFFIX,pornhub.com,update-interval = 86400
+DOMAIN-SUFFIX,pornhubpremium.com,update-interval = 86400
+DOMAIN-SUFFIX,xvideos.com,update-interval = 86400
+DOMAIN-SUFFIX,xvideos-cdn.com,update-interval = 86400
+DOMAIN-SUFFIX,onlyfans.com,update-interval = 86400
+DOMAIN-SUFFIX,onlyfans.com.cdn.cloudflare.net,update-interval = 86400
+DOMAIN-SUFFIX,fansly.com,update-interval = 86400
+DOMAIN-SUFFIX,fanslycdn.com,update-interval = 86400
+DOMAIN-SUFFIX,redgifs.com,update-interval = 86400
+DOMAIN-SUFFIX,spankbang.com,update-interval = 86400
+DOMAIN-SUFFIX,xhamster.com,update-interval = 86400
+DOMAIN-SUFFIX,rule34.xxx,update-interval = 86400
+DOMAIN-KEYWORD,porn,update-interval = 86400
+DOMAIN-KEYWORD,sex,update-interval = 86400
+DOMAIN-KEYWORD,nsfw,update-interval = 86400
+DOMAIN-KEYWORD,91porn,,update-interval = 86400
