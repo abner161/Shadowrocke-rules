@@ -1,12 +1,12 @@
 # Konami 科乐美相关域名
-DOMAIN-SUFFIX,konami.com
-DOMAIN-SUFFIX,konamionline.com
-DOMAIN-SUFFIX,mykonami.net
-DOMAIN-SUFFIX,konami.jp
-DOMAIN-SUFFIX,konami.co.jp
-DOMAIN-SUFFIX,konami.net
-DOMAIN-SUFFIX,konamistyle.jp
-DOMAIN-SUFFIX,dl.konami.net
-DOMAIN-SUFFIX,wepesmobile.com
-DOMAIN-SUFFIX,pro-evo.com
-DOMAIN-SUFFIX,e-football.com
+DOMAIN-SUFFIX,konami.com,update-interval = 86400
+DOMAIN-SUFFIX,konamionline.com,update-interval = 86400
+DOMAIN-SUFFIX,mykonami.net,update-interval = 86400
+DOMAIN-SUFFIX,konami.jp,update-interval = 86400
+DOMAIN-SUFFIX,konami.co.jp,update-interval = 86400
+DOMAIN-SUFFIX,konami.net,update-interval = 86400
+DOMAIN-SUFFIX,konamistyle.jp,update-interval = 86400
+DOMAIN-SUFFIX,dl.konami.net,update-interval = 86400
+DOMAIN-SUFFIX,wepesmobile.com,update-interval = 86400
+DOMAIN-SUFFIX,pro-evo.com,update-interval = 86400
+DOMAIN-SUFFIX,e-football.com,update-interval = 86400
