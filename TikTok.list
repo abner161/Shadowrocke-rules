@@ -1,25 +1,39 @@
-# TikTok
-USER-AGENT, TikTok*
-DOMA IN-KEYWORD, tiktokcdn
-DOMAIN-SUFFIX, byteoversea.com
-DOMAIN-SUFFIX, ibytedtos.com
-DOMAIN-SUFFIX, ipstatp.com
-DOMAIN-SUFFIX, muscdn.com
-DOMAIN-SUFFIX, musical. ly
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX, tiktok.com
-DOMAIN-SUFFIX, tiktokcdn.com
-DOMAIN-SUFFIX, tiktokv.com
-IP-CIDR,45.43.32.234/32,no-resolve
-IP-CIDR,103.151.150.0/23,no-resolve
-IP-CIDR,119.29.29.29/32,no-resolve
-IP-CIDR,128.1.62.200/32,no-resolve
-IP-CIDR,128.1.62.201/32,no-resolve
-IP-CIDR,150.116.92.250/32,no-resolve
-IP-CIDR,164.52.33.178/32,no-resolve
-IP-CIDR,164.52.33.182/32,no-resolve
-IP-CIDR,164.52.76.18/32,no-resolve
-IP-CIDR,203.107.1.33/32,no-resolve
-IP-CIDR,203.107.1.34/32,no-resolve
-IP-CIDR,203.107.1.65/32,no-resolve
-IP-CIDR,203.107.1.66/32,no-resolve
+#TikTok相关域名规则
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn-eu.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibitiktok.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,log.tiktokv.com
+DOMAIN-SUFFIX,ib.tiktokv.com
+DOMAIN-SUFFIX,api-h2.tiktokv.com
+DOMAIN-SUFFIX,api.tiktokv.com
+DOMAIN-SUFFIX,tiktokeu-cdn.com
+DOMAIN-SUFFIX,tiktokrow-cdn.com
+IP-CIDR,71.18.227.0/24,no-resolve
+IP-CIDR,71.18.247.0/24,no-resolve
+IP-CIDR,71.18.248.0/24,no-resolve
+IP-CIDR,71.18.251.0/24,no-resolve
+IP-CIDR,71.18.252.0/24,no-resolve
+IP-CIDR,71.18.253.0/24,no-resolve
+IP-CIDR,71.18.255.0/24,no-resolve
+IP-CIDR,101.45.248.0/22,no-resolve
+IP-CIDR,101.47.188.0/24,no-resolve
+IP-CIDR,103.136.220.0/24,no-resolve
+IP-CIDR,103.136.221.0/24,no-resolve
+IP-CIDR,103.136.222.0/24,no-resolve
+IP-CIDR,103.136.223.0/24,no-resolve
+IP-CIDR,118.26.132.0/24,no-resolve
+IP-CIDR,34.36.0.0/16,no-resolve
+IP-CIDR,52.129.128.0/20,no-resolve
+IP-CIDR,52.223.192.0/18,no-resolve
+IP-CIDR,99.181.64.0/19,no-resolve
+IP-CIDR,12.3.16.0/29,no-resolve
+IP-CIDR,209.170.67.16/29,no-resolve
