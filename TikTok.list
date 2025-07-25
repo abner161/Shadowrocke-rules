@@ -1,12 +1,12 @@
 # TikTok
 USER-AGENT, TikTok*
-DOMA IN-KEYWORD, tiktokcdn,update-interval = 86400
-DOMAIN-SUFFIX, byteoversea.com,update-interval = 86400
-DOMAIN-SUFFIX, ibytedtos.com,update-interval = 86400
-DOMAIN-SUFFIX, ipstatp.com,update-interval = 86400
-DOMAIN-SUFFIX, muscdn.com,update-interval = 86400
-DOMAIN-SUFFIX, musical. ly,update-interval = 86400
-DOMAIN-SUFFIX,tik-tokapi.com,update-interval = 86400
-DOMAIN-SUFFIX, tiktok.com,update-interval = 86400
-DOMAIN-SUFFIX, tiktokcdn.com,update-interval = 86400
-DOMAIN-SUFFIX, tiktokv.com,update-interval = 86400
+DOMA IN-KEYWORD, tiktokcdn
+DOMAIN-SUFFIX, byteoversea.com
+DOMAIN-SUFFIX, ibytedtos.com
+DOMAIN-SUFFIX, ipstatp.com
+DOMAIN-SUFFIX, muscdn.com
+DOMAIN-SUFFIX, musical. ly
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX, tiktok.com
+DOMAIN-SUFFIX, tiktokcdn.com
+DOMAIN-SUFFIX, tiktokv.com
