@@ -10,5 +10,6 @@ DOMAIN-SUFFIX,dl.konami.net
 DOMAIN-SUFFIX,wepesmobile.com
 DOMAIN-SUFFIX,pro-evo.com
 DOMAIN-SUFFIX,e-football.com
+DOMAIN-WORD,konami
 IP-CIDR,198.102.223.0/24,no-resolve
 IP-CIDR,66.100.108.0/24,no-resolve
